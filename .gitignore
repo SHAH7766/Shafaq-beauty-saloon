@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic output from local runs
+*.output
+
+# Diagnostic output from background tasks
+/tasks/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production build output
+dist/
+build/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Claude local files
+.claude/
